@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.main{
+  max-width: 1320px;
+  margin: auto;
+  background-color: cornflowerblue;
+}
+
+.row{
+  width: 1320 px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardItems{
+  flex-basis: 15%;
+  background-color: rgb(202, 127, 255);
+  margin: 1%;
+  height: 200px;
+}
